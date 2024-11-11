@@ -1,5 +1,5 @@
 use leptos::html::{AnyElement, Tbody};
-use leptos::*;
+use leptos::prelude::*;
 
 /// Default tbody renderer. Please note that this is **NOT** a `#[component]`.
 ///

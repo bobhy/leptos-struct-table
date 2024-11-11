@@ -3,7 +3,7 @@
 
 use ::uuid::Uuid;
 use ::chrono::NaiveDate;
-use leptos::*;
+use leptos::prelude::*;
 use leptos_struct_table::*;
 
 /// Custom row renderer that adds a link to the end of the row

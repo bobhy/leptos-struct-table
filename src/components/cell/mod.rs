@@ -2,7 +2,7 @@
 
 use crate::CellValue;
 
-use leptos::*;
+use leptos::prelude::*;
 
 /// The default cell renderer. Uses the `<td>` element.
 #[component]

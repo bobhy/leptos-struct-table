@@ -1,5 +1,5 @@
 use crate::{ChangeEvent, ColumnSort, EventHandler, TableClassesProvider, TableHeadEvent};
-use leptos::*;
+use leptos::prelude::*;
 use std::collections::VecDeque;
 
 /// This trait has to implemented in order for [`TableContent`] to be able to render rows and the head row of the table.
@@ -35,7 +35,7 @@ pub trait TableRow: Clone {
     /// For example:
     /// ```
     /// # use leptos_struct_table::*;
-    /// # use leptos::*;
+    /// # use leptos::prelude::*;
     /// #
     /// #[derive(TableRow, Clone)]
     /// struct Person {

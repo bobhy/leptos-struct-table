@@ -28,7 +28,7 @@ Easily create Leptos table components from structs.
 ## Usage
 
 ```rust
-use leptos::*;
+use leptos::prelude::*;
 use leptos_struct_table::*;
 
 #[derive(TableRow, Clone)]

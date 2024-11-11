@@ -1,6 +1,6 @@
 use leptos::html::AnyElement;
 use leptos::svg::G;
-use leptos::*;
+use leptos::prelude::*;
 use leptos_struct_table::*;
 
 const ROW_HEIGHT: usize = 30;

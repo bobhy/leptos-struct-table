@@ -1,4 +1,4 @@
-use leptos::*;
+use leptos::prelude::*;
 
 /// The display acceleration strategy. Defaults to `Virtualization`.
 #[derive(Copy, Clone, Default)]

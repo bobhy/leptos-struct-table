@@ -1,4 +1,4 @@
-use leptos::*;
+use leptos::prelude::*;
 
 /// You can pass this to a [`TableContent`] component's `reload_controller` prop to trigger a reload.
 ///

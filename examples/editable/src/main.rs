@@ -3,7 +3,7 @@ mod tailwind;
 
 use crate::renderer::*;
 use ::chrono::NaiveDate;
-use leptos::*;
+use leptos::prelude::*;
 use leptos_struct_table::*;
 use std::ops::Range;
 use tailwind::TailwindClassesPreset;

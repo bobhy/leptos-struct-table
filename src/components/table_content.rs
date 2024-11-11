@@ -11,7 +11,7 @@ use crate::{
 };
 use leptos::html::AnyElement;
 use leptos::leptos_dom::is_browser;
-use leptos::*;
+use leptos::prelude::*;
 use leptos_use::{
     use_debounce_fn, use_element_size_with_options, use_scroll_with_options, UseElementSizeOptions,
     UseElementSizeReturn, UseScrollOptions, UseScrollReturn,

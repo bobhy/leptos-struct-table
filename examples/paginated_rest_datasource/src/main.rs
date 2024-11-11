@@ -4,7 +4,7 @@ mod renderer;
 
 use crate::data_provider::BookDataProvider;
 use leptos::html::Div;
-use leptos::*;
+use leptos::prelude::*;
 use leptos_struct_table::*;
 use leptos_use::use_debounce_fn_with_arg;
 

@@ -1,6 +1,5 @@
 use std::borrow::Cow;
-
-use leptos::{view, Fragment, IntoView, View};
+use leptos::prelude::*;
 
 #[derive(Default)]
 pub struct NumberRenderOptions {
@@ -32,7 +31,7 @@ macro_rules! viewable_identity {
     };
 }
 
-viewable_identity![String, &'static str, Cow<'static, str>, View, Fragment];
+viewable_identity![String, &'static str, Cow<'static, str>, View<T>, Fragment];
 
 macro_rules! viewable_primitive {
   ($($child_type:ty),* $(,)?) => {

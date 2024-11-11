@@ -1,12 +1,12 @@
 //! Support for [uuid::Uuid] type.
 use crate::*;
 use ::uuid::Uuid;
-use leptos::*;
+use leptos::prelude::*;
 
 /// Implementation for [`Uuid`] to work with the [`TableRow`] derive and the [`DefaultTableCellRenderer`]
 /// ```
 /// # use leptos_struct_table::*;
-/// # use leptos::*;
+/// # use leptos::prelude::*;
 /// # use uuid::Uuid;
 /// #[derive(TableRow, Clone)]
 /// #[table]
